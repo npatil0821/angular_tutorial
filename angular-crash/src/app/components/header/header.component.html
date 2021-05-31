@@ -1,0 +1,15 @@
+<header>
+  <h1>{{title}}</h1>
+  <!--
+    {{...}} can be used to interpret JS expressions/items and output as string
+    {{5 + 1}} will output 6 
+    {{title.toUpperCase()}} will output uppercase of TypeScript variable title
+    as defined in the component's .ts file (header.component.ts)
+  -->
+
+  <app-button color="green" text="Add" (btnClick)="toggleAddTask()"></app-button>
+  <!--
+    Color and text added here and not in button component because they are not
+    to be applied to all buttons in the app
+  -->
+</header>

@@ -1,0 +1,11 @@
+<div class="task">
+    <h3>{{task.text}} <fa-icon [ngStyle]="{color: 'red'}" [icon]="faTimes"></fa-icon>
+    <!--
+      [icon] refers to the icon property of the fa-icon component
+      its value is being set to faTimes
+      Angular directive is used to set the icon color to red
+    -->
+    </h3>
+    <p>{{task.day}}</p>
+</div>
+<!--outputs each task with its value as the header and its time as text under-->

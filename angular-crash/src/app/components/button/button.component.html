@@ -1,0 +1,13 @@
+<button
+[ngStyle] = "{'background-color': color}"
+class="btn"
+(click)="onClick()">
+{{text}}
+</button>
+<!--
+  [ngStyle] is a directive which sets the background-color attribute of this button element
+  to the value of the variable color in the .ts file
+
+  (click) defines an event (in this case the button being clicked) which, upon taking place
+  triggers the function onClick()
+-->

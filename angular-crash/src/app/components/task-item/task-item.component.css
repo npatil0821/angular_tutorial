@@ -1,0 +1,20 @@
+/*
+  CSS was given as part of tutorial:
+  https://github.com/bradtraversy/angular-crash-2021/blob/main/src/app/components/task-item/task-item.component.css
+*/
+.task {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .task.reminder {
+    border-left: 5px solid green;
+  }
+  
+  .task h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

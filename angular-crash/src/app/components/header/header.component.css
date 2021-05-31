@@ -1,0 +1,7 @@
+/*use a specific component's style files for affecting only elements of that component*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
